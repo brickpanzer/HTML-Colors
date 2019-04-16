@@ -1,0 +1,119 @@
+
+.color {
+  width: 100%;
+  height: 100px;
+  padding: 0px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.color h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.0em;
+}
+
+.color-box{
+  height:79vh;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  padding: 0px !important;
+}
+
+.name {
+  height: 7vh;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #0f0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name h1 {
+  font-weight: 50;
+  font-size: 2.0em !important;
+}
+
+.brand {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0a0a0a;
+}
+
+.brand .navbar-brand {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5em;
+  color: #e0e0e0;
+}
+
+.compare {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  background-color: #0f0f0f;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.compare .row {
+  display: flex;
+  width: 100vw !important;
+}
+
+#color_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  border: 1px solid rgb(33,37,41);
+  margin: 30px;
+  height: 300px;
+}
+
+#color_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  border: 1px solid rgb(33,37,41);
+  margin: 30px;
+  height: 300px;
+}
+
+#reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 0px;
+  width: 100% !important;
+  position: relative;
+  top: -8vh;
+}
+
+#reset h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(33,37,41);
+  height: 100px;
+  width: 400px;
+  font-style: italic;
+}
+
+#reset h1:hover {
+  background-color: #3f3f3f;
+}
